@@ -128,7 +128,7 @@ void loop() {
     } else if (key == '#') { // Vaihdetaan tilaa.
       if (mode == "TRAIN") {
         mode = "STATION";
-        println("Aseman UID:", true);
+        println("Aseman UIC-num.:", true);
         tone(10, 2000, 100);
         delay(200);
         tone(10, 2000, 100);
